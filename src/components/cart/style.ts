@@ -34,6 +34,9 @@ export const CartContent = styled.div`
     background-color: white;
     padding: 20px;
     overflow-y: scroll;
+    display:flex;
+    flex-direction: column;
+    gap: 28px;
 
     @media (max-width: 768px) {
         min-width: 85%;
